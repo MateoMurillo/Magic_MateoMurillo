@@ -15,6 +15,5 @@ namespace Magic_MateoMurillo.Models
         [Required(AllowEmptyStrings = false, ErrorMessage = "{0} es requerido")]
         [Url]
         public string Imagen { get; set; }
-        [Required(AllowEmptyStrings = false, ErrorMessage = "{0} es requerido")]
     }
 }
